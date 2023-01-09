@@ -11,10 +11,10 @@ Book Kofler second edition, pages 999-444
 
   * 3 modules gemacht
   
-* Describe Azure architectes and services
+* Describe Azure architectes and services (Ende Januar)
 
   * 1 / 4 modules
   
-* Describe Azure management and governance
+* Describe Azure management and governance (Mitte Februar)
   
   * 0 / 4 modules
