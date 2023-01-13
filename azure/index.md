@@ -64,6 +64,37 @@ Region, Datencenter sind mit low-latency Netzwerk verbunden.
 
 Eine Availability Zone ist in einer Region, falls vorhanden besteht sie mindestens aus drei Zonen, welche einander unterstützen.
 
+## Das ist Cloudcomputing (Azure Fundamentals Learning path, besteht aus Modulen)
+
+Von **Cloud computing** spricht man, wenn virtuelle Maschinen, Speicher, Datenbanken oder Netzwerke über das Internet ausgeliefert werden.
+
+Es gibt drei Cloudmodelle mit folgenden Usecases
+
+1. public
+   öffentlich zugänglich, sic!
+3. private
+   - mehr Kontrolle, mehr Kosten, weniger Vorteile. Kann auch in eigenem Datencenter
+     gehostet werden.
+4. hybrid
+
+Multicloud: Dienste von verschiedenen Anbietern werden konsumiert
+Azure Arc: Technologien zum verwalten von Cloud Umgebungen, nicht auf Azure beschränkt
+Azure VMware Solution: Möglichkeit, VMs aus privater Cloud in öffentlicher oder hybrider Umgebung laufen zu lassen.
+
+Zwei Begriffe dazu: SPIO SaaS, PaaS, IaaS, Onpremise
+1. Shared responsibility model
+   - Betreiber ist immer für physischen Zustand zuständig
+     - Hosts, Netzwerke, Datencenter
+   - Consumer ist immer verantwortlich für die Daten.
+     - Information und Daten, Zugriffsgeräte, Konti und Identitäten der Personen
+   - Alles dazwischen ist abhängig von der Situation
+     - Betriebssysteme, Anwendungen, Identität und Infrastruktur, Network controls?
+   - [https://learn.microsoft.com/en-gb/training/wwl-azure/describe-cloud-compute/media/shared-responsibility-b3829bfe.svg](src: learn.microsoft.com) 
+3. consumption-based model
+
+Bei den Preisen soll es um folgendes gehen
+CapEx capital expediture: einmalig, z.B. für ein Gebäude
+OpEx operational expediture: fortlaufend, so wie in der Cloud.
 
 
 
