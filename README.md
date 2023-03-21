@@ -13,6 +13,10 @@ Theme should remember of some wine.
 * [Huge storage](mongo/index.md).
 * [Strong shell, not in the sea](powershell/index.md).
 
+## .Net / C#
+
+* [Tasks] (net/async/index.textile)
+
 ```mermaid
 graph TD;
     A-->B;
