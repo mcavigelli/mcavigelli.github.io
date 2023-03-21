@@ -15,7 +15,7 @@ Theme should remember of some wine.
 
 ## .Net / C#
 
-* [Tasks] (net/async/index.textile)
+* [Tasks](net/async/index.textile).
 
 ```mermaid
 graph TD;
