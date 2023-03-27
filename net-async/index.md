@@ -37,7 +37,7 @@ Es kann nicht immer entschieden werden, um welchen Typ von Task es sich handelt.
 - _Capturing_
   - async / await berücksichtigt SynchronizationContext und TaskScheduler, kostet Laufzeit.
 
-###Zusammenhänge
+### Zusammenhänge
 
 `ConfigureAwait(false)` ignoriert das _Capturing_ siehe oben. - Callbacks sind nicht gezwungen, auf dem gekaperten Context ausgeführt zu werden; das spart Zeit.
 - Deadlocks: Gegeben der Context erlaubt bloss eine Operation, wenn eine Netzwerkoperation fertig ist, kann sie nicht auf den Context zugreiffen, da der einzige Zugriff bereits vom startenden Thread beansprucht wird.
