@@ -5,3 +5,11 @@
 ```powershell
 > gci -recurse ...
 ```
+
+## Create empty file, aka touch
+
+```powershell
+> New-Item <path>
+```
+
+Default item-Type is file.
