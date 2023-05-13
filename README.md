@@ -11,7 +11,8 @@ Theme should remember of some wine.
 * [Not for ships](docker/index.md).
 * [Not science](engineering/index.md).
 * [Huge storage](mongo/index.md).
-* [Strong shell, not in the sea](powershell/index.md).
+* [Strong shell, not in the sea](powershell/).
+* [JavaScript modules](javascript/modules)
 
 ## .Net / C#
 
