@@ -40,9 +40,9 @@ auch möglich
 `export {getPrime, bananaPrice}`
 
 Reexportieren
-```
-`export * from ./a`
-`export meow from ./c`
+```typescript
+export * from ./a
+export meow from ./c
 ```
 
 ### Dynamische Importe
@@ -59,7 +59,7 @@ Import über eine Promise über eine Funktion, vs. statisch wie sonst häufig zu
 1. Stringliteral direkt an import übergeben.
 2. siehe unten, braucht in tsconfig {"module": "esnext"}
 
-```
+```typescript
  import {locale} from './locales/locale-us'
   
  async function main() {

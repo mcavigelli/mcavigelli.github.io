@@ -9,7 +9,8 @@
 ## Create empty file, aka touch
 
 ```powershell
-> New-Item <path>
+New-Item <path>
+ni <path>        # alias
 ```
 
 Default item-Type is file.
