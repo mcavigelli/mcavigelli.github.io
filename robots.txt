@@ -1,0 +1,4 @@
+Sitemap: https://mcavigelli.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: mcavigelli.github.io

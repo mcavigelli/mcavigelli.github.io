@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmcavigelli_github_io=self.webpackChunkmcavigelli_github_io||[]).push([[6572],{4469:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);
