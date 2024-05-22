@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://mcavigelli.github.io/</loc>
-  <lastmod>2024-05-17T19:36:00Z</lastmod>
+  <lastmod>2024-05-17T20:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://mcavigelli.github.io/2024/</loc>
@@ -15,27 +15,31 @@
  </url>
  <url>
   <loc>https://mcavigelli.github.io/archive.html</loc>
-  <lastmod>2024-05-17T19:39:00Z</lastmod>
+  <lastmod>2024-05-21T19:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://mcavigelli.github.io/categories/</loc>
-  <lastmod>2024-05-17T19:41:00Z</lastmod>
+  <lastmod>2024-05-21T20:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://mcavigelli.github.io/categories/cat_test.html</loc>
-  <lastmod>2024-05-17T19:41:00Z</lastmod>
+  <lastmod>2024-05-21T19:57:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mcavigelli.github.io/categories/nikola-versuch.html</loc>
-  <lastmod>2024-05-17T19:39:00Z</lastmod>
+  <loc>https://mcavigelli.github.io/categories/mathe.html</loc>
+  <lastmod>2024-05-21T20:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://mcavigelli.github.io/categories/nikola.html</loc>
-  <lastmod>2024-05-17T19:41:00Z</lastmod>
+  <lastmod>2024-05-21T19:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mcavigelli.github.io/categories/test.html</loc>
+  <lastmod>2024-05-21T20:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://mcavigelli.github.io/categories/versuch.html</loc>
-  <lastmod>2024-05-17T19:41:00Z</lastmod>
+  <lastmod>2024-05-21T19:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://mcavigelli.github.io/galleries/</loc>
@@ -51,14 +55,18 @@
  </url>
  <url>
   <loc>https://mcavigelli.github.io/pages/nikola-rundtour.html</loc>
-  <lastmod>2024-05-17T19:36:00Z</lastmod>
+  <lastmod>2024-05-21T19:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mcavigelli.github.io/posts/mathe-testen.html</loc>
+  <lastmod>2024-05-21T20:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://mcavigelli.github.io/posts/nikola-heute.html</loc>
-  <lastmod>2024-05-17T19:39:00Z</lastmod>
+  <lastmod>2024-05-21T19:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://mcavigelli.github.io/posts/nikola-morgen.html</loc>
-  <lastmod>2024-05-17T19:41:00Z</lastmod>
+  <lastmod>2024-05-21T19:57:00Z</lastmod>
  </url>
 </urlset>
