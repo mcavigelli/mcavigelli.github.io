@@ -5,9 +5,11 @@
 .. tags: Mathe, Test 
 .. category: 
 .. link: 
-.. description: 
+.. description: Found
 .. type: text
 .. has_math: true
 -->
 
 Euler’s formula: \\[e^{ix} = \cos x + i\sin x\\]
+
+and other formulas might follow.
