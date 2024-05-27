@@ -2,7 +2,7 @@
 
 ## Some notes
 
-Mainly in German, might contain traces of English.
+Mainly in German, might contain traces of English, Swedish welcome as well.
 
 Theme should remember of some wine.
 
