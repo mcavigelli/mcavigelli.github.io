@@ -7,34 +7,30 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://mcavigelli.github.io/categories/cat_test.xml</loc>
-  <lastmod>2024-05-17T19:41:00Z</lastmod>
+  <lastmod>2024-05-27T19:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://mcavigelli.github.io/categories/mathe.xml</loc>
-  <lastmod>2024-05-22T09:03:00Z</lastmod>
+  <lastmod>2024-05-27T19:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://mcavigelli.github.io/categories/nikola.xml</loc>
-  <lastmod>2024-05-17T19:41:00Z</lastmod>
+  <lastmod>2024-05-27T19:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://mcavigelli.github.io/categories/test.xml</loc>
-  <lastmod>2024-05-22T09:03:00Z</lastmod>
+  <lastmod>2024-05-27T19:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://mcavigelli.github.io/categories/versuch.xml</loc>
-  <lastmod>2024-05-17T19:41:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://mcavigelli.github.io/galleries/rss.xml</loc>
-  <lastmod>2024-05-21T19:57:00Z</lastmod>
+  <lastmod>2024-05-27T19:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://mcavigelli.github.io/rss.xml</loc>
-  <lastmod>2024-05-22T09:03:00Z</lastmod>
+  <lastmod>2024-05-27T19:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://mcavigelli.github.io/sitemap.xml</loc>
-  <lastmod>2024-05-22T09:03:00Z</lastmod>
+  <lastmod>2024-05-27T20:46:00Z</lastmod>
  </sitemap>
 </sitemapindex>
