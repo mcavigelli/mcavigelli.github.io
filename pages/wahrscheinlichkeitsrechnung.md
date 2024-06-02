@@ -10,11 +10,31 @@
 .. has_math: true
 -->
 
-
 # Quellen
 
 Bronstein, Semendjajew, Musiol, Mühlig: Taschenbuch der Mathematik, 1993,
 Seiten 498-500.
+
+## Permutationen
+
+\\[P_n \\] mit n verschiedenen Elementen
+
+### ohne Wiederholungen
+
+\\[P_n = n! \\]
+
+* Ordne drei T-Shirt der Farben rot, grün blau an: (rgb,rbg,grb,gbr,brg,bgr) 
+
+\\[P_3 = 3! = 6 \\]
+
+### mit Wiederholungen
+
+\\[{P_n}^{(k)} = \frac{n!}{k!} \\]
+
+* Eine Reihe von 10 Sitzplätzen wird von 10 Schüleretuis belegt. 4
+Schüleretuis sind identisch. Wieviele Möglichkeiten gibt es?
+
+\\[{P_{10}}^{(4)} = \frac{10!}{4!} = 15'120 \\]
 
 ## Kombinationen
 
@@ -23,8 +43,6 @@ Bei Kombinationen spielt die Reihenfolge keine Rolle.
 ### ohne Wiederholungen
 
 \\[{C_n}^{(k)} = \binom{n}{k} = \frac{n!}{k!(n-k)!} \\]
-
-#### Beispiele
 
 * Ein Salatbuffet besteht aus 5 Salaten. Du musst 3 verschiedene Salate
 wählen: Wieviele unterschiedliche Salatteller kannst du zusammen stellen?
@@ -37,6 +55,14 @@ Verfügung. Wie viele Kombinationen gibt es?
 
 \\[{C_{21}}^{(4)} = \binom{21}{4} = \frac{21!}{4!(21-4)!} = \frac{21 * 20 * 19 * 18}{24}= 5'985\\]
 
+### mit Wiederholungen
+
+\\[{C_n}^{(k)} = \binom{n + k -1}{k} \\]
+
+* Wieviele verschiedene Würfe können mit 2 Würfeln geworfen werden?
+
+\\[{C_6}^{(2)} = \binom{6 + 2 -1}{2} = \binom{7}{2} = \frac{7!}{2! * 5!} = 21 \\]
+
 ## Variationen
 
 Bei Variationen ist die Reihenfolge signifikant.
@@ -46,11 +72,7 @@ Bei Variationen ist die Reihenfolge signifikant.
 Eine Person steht nur 1x zur Verfügung, oder eine Kugel aus einem Topf
 wird nicht mehr zurückgelegt.
 
-
 \\[{V_n}^{(k)} = {k!}\binom{n}{k} = k!\frac{n!}{k!(n-k)!} = \frac{n!}{(n-k)!} \\]
-
-
-#### Beispiele
 
 * Für den Skiclub soll ein 4 köpfiger Vorstand mit unterschiedlichen
 Funktionen gewählt werden. Es stehen 21 Personen zur
@@ -62,11 +84,9 @@ Verfügung. Wie viele Kombinationen gibt es?
 
 \\[{V_n}^{(k)} = \{n}^{k} \\]
 
-Aussprache "n hoch k"
-
-#### Beispiele
-
 * Ein Handy ist durch einen vierstelligen Zahlencode geschützt. Wie 
 viele Variationen gibt es?  
 
 \\[{V_{10}}^{(4)} = \{10}^{4} = 10'000 \\]
+
+
