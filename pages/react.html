@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>React | My Nikola Site</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../rss.xml">
+<link rel="canonical" href="https://mcavigelli.github.io/pages/react.html">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="Almost Nikola Tesla">
+<meta property="og:site_name" content="My Nikola Site">
+<meta property="og:title" content="React">
+<meta property="og:url" content="https://mcavigelli.github.io/pages/react.html">
+<meta property="og:description" content='Quellen
+
+Buch "The Road to React", Robin Wieruch, 2023
+Buch "", Kapitel, 2022
+Diverse online Quellen, verlinkt
+
+Aufsetzen
+npm create vite@latest
+
+
+Es folgt ein Assistent um ein React Projekt aufsetzen'>
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-06-22T00:00:00+02:00">
+<meta property="article:tag" content="React">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="../">
+
+            <span id="blog-title">My Nikola Site</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
+<li class="nav-item">
+    <a href="react.md" id="sourcelink" class="nav-link">Source</a>
+    </li>
+
+
+                    
+            </ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../archive.html" class="nav-link">Archive</a>
+                </li>
+<li class="nav-item">
+<a href="../categories/" class="nav-link">Tags</a>
+                </li>
+<li class="nav-item">
+<a href="../rss.xml" class="nav-link">RSS feed</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">React</a></h1>
+
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <h3>Quellen</h3>
+<ul>
+<li>Buch "The Road to React", Robin Wieruch, 2023</li>
+<li>Buch "", Kapitel, 2022</li>
+<li>Diverse online Quellen, verlinkt</li>
+</ul>
+<h3>Aufsetzen</h3>
+<div class="code"><pre class="code literal-block">npm<span class="w"> </span>create<span class="w"> </span>vite@latest
+</pre></div>
+
+<p>Es folgt ein Assistent um ein React Projekt aufsetzen zu können.</p>
+<h3>Begriffe</h3>
+<div class="code"><pre class="code literal-block"><span class="c1">// Das ist ein Hook, darf nur in einer Methode aufgerufen werden.</span>
+<span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">count</span><span class="p">,</span><span class="w"> </span><span class="nx">setCount</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useState</span><span class="p">(</span><span class="mf">0</span><span class="p">);</span>
+</pre></div>
+
+<p>Funktionen, welche mit <strong>use</strong> beginnen, werden Hooks genannt. Sie
+dürfe nicht in Schlaufen oder Bedingungen stehen. Sonst muss eine
+weitere Komponente extrahiert werden.</p>
+<p><strong>useState</strong> und <strong>useEffect</strong> sind die häufigsten Hooks in React.</p>
+<p>useEffect: um Seiteneffekte mitzubekommen.
+useContext: Advanced feature</p>
+<h3>Buchnotizen</h3>
+<p>// Umbruch in reader, zb. S33/179 oben .eslintrc
+// Vielleicht ein Schema wie eslint, plugin und config zusammen hängen. commit b862f6b</p>
+<h4>Bootstrapping</h4>
+<p>Mit ReactDOM wird ein Teil eines html Files ersetzt.
+Typischerweise heisst die Startkomponente <code>App</code>.</p>
+<p>Die beiden Sachen heissen
+function declaration oder arrow function</p>
+<p>Es gibt syntetische Events wie z.B. onChange von React selbst, aufrufen mit
+onChange="{myHandleFunction}", Achtung ohne Klammern in ...Function().</p>
+<h3>State, useState Hook</h3>
+<p>Wenn Zustand geändert wird, werden alle abhängigen Komponenten neu 
+gezeichnet. Gebraucht, für Daten welche sich über die Zeit ändern.</p>
+<div class="code"><pre class="code literal-block"><span class="p">[</span><span class="nx">money</span><span class="p">,</span><span class="w"> </span><span class="nx">setMoney</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useState</span><span class="p">(</span><span class="s1">'1000'</span><span class="p">);</span>
+</pre></div>
+
+<p>Die Syntax nennt sich <strong>Array destructing</strong>.</p>
+<div class="code"><pre class="code literal-block">State so weit unten wie möglich halten, kann über callback in props 
+nach oben geschoben werden.
+</pre></div>
+
+<p>Für den Startwert <strong>muss</strong> kann eine Methode <code>getTodos</code> angegeben werden; beachte
+den Unterschied zu einem Methodenaufruf <code>getTodos()</code>.</p>
+<h4>Schtolperschteine</h4>
+<ol>
+<li>Kann im <strong>Strict-Mode</strong> mehrmals aufgerufen werden.</li>
+<li>Der aktualisierte Wert aus <strong>set</strong> ist erst im nächsten Rendercyclus
+lesbar.</li>
+<li>Bleibt der Wert identisch, bleibt ein Neuzeichnen aus.</li>
+<li>Mit setNewValue sollen Objekte neu erstellt werden, Arrays ebenfalls
+geklont und angepasst werden.</li>
+<li>Wird einer Komponente ein <strong>neuer</strong> Key gesetzt, wird auch deren
+Zustand zurückgesetzt. </li>
+</ol>
+<h3>Side effects</h3>
+<h3>Componenten</h3>
+<h4>Component Composition</h4>
+<h4>Tsx</h4>
+<p>Muss ein Root-Element haben: Behelf: <fragment> oder &lt;&gt; benutzen.</fragment></p>
+<h4>Advanced</h4>
+<p>Spread operator kann gebraucht werden um alle Parameter zu übergeben
+Props destrukten: immer, ausser wenn Objekt einfach weiter gereicht wird.</p>
+<p>Daten sind readonly, von top to bottom</p>
+<ul>
+<li>Was ist Unterschied </li>
+</ul>
+<p>Hier kann dekonstruiert werden.
+const MyComp: React.FC<mycompprops> = (props) =&gt; { return (null);}</mycompprops></p>
+<p>und </p>
+<p>const MyComp =&gt; (props: MyCompProps) =&gt; {return (null);}</p>
+<h3>Unterschiede Angular</h3>
+<ul>
+<li>keine Kommandozeile</li>
+<li>
+<p>z.B zum Anlegen einer Komponente, einer Pipe oder eines Services.</p>
+</li>
+<li>
+<p>bei Angular müssen Abhängigkeiten einerseits mit ng update und andererseits
+  mit dem gewöhnlichen Paketmanager (npm, yarn, ...) verwaltet werden, im
+  selben package.json File.</p>
+</li>
+<li>
+<p>Starten einer neuen Anwendung aufwändiger, siehe....</p>
+</li>
+</ul>
+</div>
+    
+
+</article><!--End of body content--><footer id="footer">
+            Contents © 2024         <a href="mailto:n.tesla@example.com">Almost Nikola Tesla</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
+</body>
+</html>
