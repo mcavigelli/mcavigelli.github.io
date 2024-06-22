@@ -2,10 +2,7 @@
 .. title: Wahrscheinlichkeitsrechnung
 .. slug: wahrscheinlichkeitsrechnung
 .. date: 2024-05-27
-.. tags: Latte
-.. category: 
-.. link: 
-.. description: 
+.. tags: Mathe
 .. type: text
 .. has_math: true
 -->
@@ -26,6 +23,8 @@ Seiten 498-500.
 * Ordne drei T-Shirt der Farben rot, grün blau an: (rgb,rbg,grb,gbr,brg,bgr) 
 
 \\[P_3 = 3! = 6 \\]
+
+Englische Aussprache: "3 factorial".
 
 ### mit Wiederholungen
 
@@ -48,6 +47,8 @@ Bei Kombinationen spielt die Reihenfolge keine Rolle.
 wählen: Wieviele unterschiedliche Salatteller kannst du zusammen stellen?
 
 \\[{C_5}^{(3)} = \binom{5}{3} = \frac{5!}{3!(5-3)!} = 10\\]
+
+Mögliche Aussprache: "C index 5 von 3"
 
 * Für den Skiclub soll ein 4 köpfiger Vorstand gewählt werden. Die
 Funktionen der Personen sind gleichgültig. Es stehen 21 Personen zur
@@ -80,6 +81,8 @@ Verfügung. Wie viele Kombinationen gibt es?
 
 \\[{V_{21}}^{(4)} = \frac{21!}{17!} = 143'640 \\]
 
+Englische Aussprache: "21 factorial divided by 17 factorial".
+
 ### mit Wiederholungen
 
 \\[{V_n}^{(k)} = \{n}^{k} \\]
@@ -89,4 +92,5 @@ viele Variationen gibt es?
 
 \\[{V_{10}}^{(4)} = \{10}^{4} = 10'000 \\]
 
+Englische Aussprache: "10 to the power of 4".
 
