@@ -11,6 +11,7 @@
 - Buch "The Road to React", Robin Wieruch, 2023
 - Buch "", Kapitel, 2022
 - Diverse online Quellen, verlinkt
+- react.dev 
 
 
 ## Aufsetzen
@@ -35,6 +36,19 @@ weitere Komponente extrahiert werden.
 **useState** und **useEffect** sind die häufigsten Hooks in React.
 
 useEffect: um Seiteneffekte mitzubekommen.
+
+Wenn immer sich ein Wert ändert, soll etwas getan werden:
+react.dev Beispiel: der Chatroom wird geändert von Travel nach Bicycles, dann
+muss die bestehende Verbindung geschlossen werden und die neue geöffnet werden.
+Es kann also eine Cleanup (close connection) mitgegeben werden.
+
+```typescript
+useEffect(action, reactive values)
+```
+ mit reactive values a) eine Liste von Variablen 
+b) [] leerer Array, keine Abhängigkeiten, wird 1x ausgeführt
+c) kein Array: wird bei jedem (Re-)render aufgerufen.
+
 useContext: Advanced feature
 
 ## Buchnotizen
