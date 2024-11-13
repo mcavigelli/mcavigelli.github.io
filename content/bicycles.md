@@ -5,7 +5,7 @@ math: true
 
 # Fahrräder
 
-Schnelle, schöne und robuste.
+Schnelle, schöne und robuste Fahrzeuge.
 
 ```python {linenos=table,linenostart=42}
 def say_hello():
