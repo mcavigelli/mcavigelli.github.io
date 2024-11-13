@@ -1,4 +1,4 @@
 baseURL = 'https://mcavigelli.github.io/'
 languageCode = 'ch-de'
 title = 'Matthias Cavigelli mit Hugo'
-theme = 'ananke'
+theme = 'hextra'
