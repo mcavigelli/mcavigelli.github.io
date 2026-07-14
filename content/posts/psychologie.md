@@ -16,7 +16,7 @@ https://www.bikeradar.com/advice/fitness-and-training/afraid-of-failing-these-6-
 4. Stark beginnen: Auf das fokussieren, was kontrolliert werden kann, nicht auf die erste Katastrophe warten. Konzentriert und energetisch spielen (kontrollierbar), anstatt auf Gewinn zu spielen
 (nicht kontrollierbar).
 
-5. Den Aengsten antworten
+5. Den Ängsten antworten
 
 > Aengste müssen durchschritten werden, um den Erfolg erreichen zu können.
 
